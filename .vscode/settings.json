@@ -1,0 +1,7 @@
+{
+  "files.associations": {
+    "stdio.h": "c",
+    "main_project2.h": "c"
+  },
+  "r.lsp.promptToInstall": false
+}
