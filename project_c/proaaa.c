@@ -19,3 +19,4 @@ int main()
 int alpha_f(int a) {
   return a;
 }
+
