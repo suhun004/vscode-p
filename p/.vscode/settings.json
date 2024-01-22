@@ -1,0 +1,21 @@
+{
+  "files.associations": {
+    "stdio.h": "c",
+    "main_project2.h": "c",
+    "string.h": "c"
+  },
+  "r.lsp.promptToInstall": false,
+  "code-runner.executorMap": {
+    "javascript": "node",
+    "php": "C:\\php\\php.exe",
+    "python": "python3",
+    "perl": "perl",
+    "ruby": "C:\\Ruby23-x64\\bin\\ruby.exe",
+    "go": "go run",
+    "html": "\"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\"",
+    "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+    "c": "cd $dir && gcc $fileName -o a.out && $dira.out && rm a.out",
+    "cpp": "cd $dir && g++ $fileName -o a.out && $dira.out && rm a.out"
+  }
+
+}
