@@ -1,16 +1,14 @@
 #include <stdio.h>
-#include <string.h>
 
-
-void ch_f()
-{
-  char a[] = "";
-  char b[] = "";
-  printf("역순으로 출력받을 문자열을 입력하세요\n");
-  scanf("%s", a);
-  int n = strlen(a) + 1;
-  for(int i = 0; i < n; i++) {
-    printf("%c", a[n - i - 2]);
+int main() {
+  printf("Hello World!\n");
+  for (int i = 0; i < 10; i++) {
+   if (i == 9) {
+    printf("%d\n", i);
+   }
+   else {
+      printf("%d ", i);
+   }
   }
-  printf("\n");
+  return 0;
 }
