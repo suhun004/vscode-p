@@ -1,14 +1,21 @@
 #include <stdio.h>
+#define MAX 9
+
+void fn_print_num(int);
 
 int main() {
   printf("Hello World!\n");
-  for (int i = 0; i < 10; i++) {
-   if (i == 9) {
-    printf("%d\n", i);
+  for (int i = 1; i < MAX + 1; i++) {
+  fn_print_num(i);
+   if (i == MAX) {
    }
    else {
-      printf("%d ", i);
+      printf(" ");
    }
   }
   return 0;
+}
+
+void fn_print_num(int a) {
+  printf("%d", a);
 }
